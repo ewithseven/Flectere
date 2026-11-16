@@ -12,6 +12,7 @@ Code, prompts, pre-registration and results for **"Strict on Slips, Lenient on P
   - `okuma_seti.py`: blinded human-reading set
   - `c_kume.py`, `kol2_kural.py`: code rules that selected sets C and D
 - Results: [`sonuclar/sonuclar.md`](sonuclar/sonuclar.md) (script output), `sonradan_p1_kirilim.md` (post hoc breakdown of P1), `ek_cumleler.md` (coder-flagged sentences)
+- Call logs: [`sonuclar/call_logs.jsonl`](sonuclar/call_logs.jsonl), one row per scheduled call (650): set, record, arm, the judge's full response, safeguard stops, hygiene checks and token usage. Added after submission (16 November 2026). Local file paths were removed, and the extractor's outputs are omitted because they copy scenario text verbatim (available on request).
 
 ## Notes
 
