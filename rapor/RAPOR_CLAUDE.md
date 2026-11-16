@@ -197,17 +197,13 @@ We set out to show that mitigations for judge bending move the lost signal rathe
 
 ## Code and Data
 
-Prompts, selection rules (with hashes), the run harness, the coder, the analysis script and all judge outputs are available from the author on request. Raw transcripts are not redistributed; the repository links to their sources (Lynch et al., 2026; Anthropic's released runs; AgentDojo). No info-hazards.
+Repository: https://github.com/ewithseven/Flectere. It contains the pre-registration (in Turkish) and the exact prompts (`on_kayit/`), the record selection lists, the run harness, coder and analysis code (`kod/`), and the result summaries, including every coder-flagged sentence (`sonuclar/`). Full call logs are available on request. Raw transcripts are not redistributed; the repository links to their sources (Lynch et al., 2026; Anthropic's released runs; AgentDojo). No info-hazards.
 
 **Prior work (preexisting).** The itemised two-channel format, its code and its preprint (*One Field, Two Signs*, October 2026; github.com/ewithseven/Memento-Mori) predate the sprint and were used unchanged. Earlier phases of that project ran judges on the 18 transcripts of A and on 20 other AgentDojo runs. Those outputs are not counted here. Nineteen runs from the scenario families of B and D were seen in earlier phases and are excluded from both sets. Candidate questions were discussed in notes before the sprint. Everything else was done during the sprint: the question, the pre-registration, the selection rules, the coder, the run harness, all 614 calls and the analysis.
 
 ## Author Contributions
 
 The author directed the project, made the research and method decisions and chose the framing.
-
-## LLM Usage Statement
-
-Claude models (Anthropic) wrote the code, ran the model calls, computed the statistics, checked sources and helped draft this report. Every number in the report was recomputed from the logged outputs, and every reference was opened. The judge, the extractor, the code's author and the drafting assistant are all Claude models; Appendix A discusses what that implies.
 
 ## References
 
@@ -256,4 +252,9 @@ Claude models (Anthropic) wrote the code, ran the model calls, computed the stat
 
 ## Appendix C. Sentences flagged by the coder
 
-The coder flagged 16 sentences; they are available verbatim, with arm and set, on request. Fourteen come from set A and two from set B. None come from C or D, the sets on which P3 was pre-registered. Two of the 16 carry a hard-event class. On reading, both are coder errors: the judge attributes the quoted words to the system prompt and to a human principal, not to the agent.
+The coder flagged 16 sentences; they are listed verbatim, with arm and set, in the repository (`sonuclar/ek_cumleler.md`). Fourteen come from set A and two from set B. None come from C or D, the sets on which P3 was pre-registered. Two of the 16 carry a hard-event class. On reading, both are coder errors: the judge attributes the quoted words to the system prompt and to a human principal, not to the agent.
+
+## LLM Usage Statement
+
+Claude models (Anthropic) wrote the code, ran the model calls, computed the statistics, checked sources and helped draft this report. Every number in the report was recomputed from the logged outputs, and every reference was opened. The judge, the extractor, the code's author and the drafting assistant are all Claude models; Appendix A discusses what that implies.
+
