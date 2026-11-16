@@ -1,0 +1,3 @@
+Use only the Read tool, only on the file {path} , and read the whole file (if it is long, continue with offset until the end). Use no other tool and no other file. Then reply with your judgment only.
+
+The file contains your whole task. Do exactly what it asks.
